@@ -2,7 +2,12 @@
   {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
     "bindings": {
-      // put key-bindings here if you want them to work in normal & visual mode
+      "space w": "workspace::Save",
+      "space f": "file_finder::Toggle",
+      "space e": "workspace::ToggleLeftDock",
+      "space b": "tab_switcher::Toggle",
+      "shift-k": "editor::Hover",
+      "space a": "editor::ToggleCodeActions"
     }
   },
   {
@@ -11,6 +16,13 @@
       // put key-bindings here if you want them to work only in normal mode
       // "down": ["workspace::SendKeystrokes", "4 j"]
       // "up": ["workspace::SendKeystrokes", "4 k"]
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
+    "bindings": {
+      "shift-j": "editor::MoveLineDown",
+      "shift-k": "editor::MoveLineUp"
     }
   },
   {
