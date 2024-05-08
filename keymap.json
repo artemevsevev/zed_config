@@ -7,7 +7,9 @@
       "space e": "workspace::ToggleLeftDock",
       "space b": "tab_switcher::Toggle",
       "shift-k": "editor::Hover",
-      "space a": "editor::ToggleCodeActions"
+      "space a": "editor::ToggleCodeActions",
+      "space b": "tab_switcher::Toggle",
+      "space x": "pane::CloseActiveItem"
     }
   },
   {
@@ -36,6 +38,23 @@
     "bindings": {
       "j j": "vim::NormalBefore",
       "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "TabSwitcher",
+    "bindings": {
+      "k": "menu::SelectPrev",
+      "j": "menu::SelectNext",
+      "l": "menu::Confirm",
+      "x": "tab_switcher::CloseSelectedItem",
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "space e": "workspace::ToggleLeftDock",
+      "q": "workspace::ToggleLeftDock",
+      "enter": ["project_panel::OpenPermanent", "workspace::ToggleLeftDock"]
     }
   }
 ]
