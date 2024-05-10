@@ -7,24 +7,29 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "theme": "Rosé Pine Dawn",
   "features": {
     "copilot": false
   },
   "base_keymap": "JetBrains",
   "buffer_font_family": "MonoLisa",
-  // "buffer_font_features": {
-  //   "calt": false
-  // },
-  "theme": "Rosé Pine Dawn",
+  "buffer_font_features": {
+    "calt": false
+  },
+  //"buffer_line_height": "standard",
   "vim_mode": true,
   "relative_line_numbers": true,
   "confirm_quit": true,
   //"ui_font_size": 15,
   "buffer_font_size": 13,
-  //"buffer_line_height": "standard",
   "autosave": "on_focus_change",
   "cursor_blink": false,
   "inlay_hints": {
     "enabled": false
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
   }
 }

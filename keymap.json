@@ -8,29 +8,18 @@
       "space b": "tab_switcher::Toggle",
       "shift-k": "editor::Hover",
       "space a": "editor::ToggleCodeActions",
-      "space b": "tab_switcher::Toggle",
       "space x": "pane::CloseActiveItem"
     }
   },
   {
     "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
-    "bindings": {
-      // put key-bindings here if you want them to work only in normal mode
-      // "down": ["workspace::SendKeystrokes", "4 j"]
-      // "up": ["workspace::SendKeystrokes", "4 k"]
-    }
+    "bindings": {}
   },
   {
     "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
     "bindings": {
       "shift-j": "editor::MoveLineDown",
       "shift-k": "editor::MoveLineUp"
-    }
-  },
-  {
-    "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
-    "bindings": {
-      // visual, visual line & visual block modes
     }
   },
   {
@@ -46,7 +35,7 @@
       "k": "menu::SelectPrev",
       "j": "menu::SelectNext",
       "l": "menu::Confirm",
-      "x": "tab_switcher::CloseSelectedItem",
+      "x": "tab_switcher::CloseSelectedItem"
     }
   },
   {
