@@ -11,16 +11,17 @@
     "copilot": false
   },
   "base_keymap": "JetBrains",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_features": {
-    "calt": false
-  },
+  "buffer_font_family": "MonoLisa",
+  // "buffer_font_features": {
+  //   "calt": false
+  // },
   "theme": "Rosé Pine Dawn",
   "vim_mode": true,
   "relative_line_numbers": true,
   "confirm_quit": true,
-  "ui_font_size": 15,
+  //"ui_font_size": 15,
   "buffer_font_size": 13,
+  //"buffer_line_height": "standard",
   "autosave": "on_focus_change",
   "cursor_blink": false,
   "inlay_hints": {
