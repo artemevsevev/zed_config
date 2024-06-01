@@ -8,7 +8,8 @@
       "space b": "tab_switcher::Toggle",
       "shift-k": "editor::Hover",
       "space a": "editor::ToggleCodeActions",
-      "space x": "pane::CloseActiveItem"
+      "space x": "pane::CloseActiveItem",
+      "space r": "editor::Rename"
     }
   },
   {
