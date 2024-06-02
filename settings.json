@@ -8,6 +8,9 @@
 // from the command palette or from `Zed` application menu.
 {
   "theme": "Rosé Pine Dawn",
+  "tab_bar": {
+    "show": false
+  },
   "features": {
     "copilot": false
   },
