@@ -4,12 +4,25 @@
     "bindings": {
       "space w": "workspace::Save",
       "space f": "file_finder::Toggle",
-      "space e": "workspace::ToggleLeftDock",
+      "space e": "pane::RevealInProjectPanel",
       "space b": "tab_switcher::Toggle",
       "shift-k": "editor::Hover",
       "space a": "editor::ToggleCodeActions",
       "space x": "pane::CloseActiveItem",
-      "space r": "editor::Rename"
+      "space r": "editor::Rename",
+      "space d": "diagnostics::Deploy",
+      "space g": "pane::DeploySearch",
+      "g h": "vim::FirstNonWhitespace",
+      "g l": "vim::EndOfLine",
+      "g r": "editor::FindAllReferences",
+      "g D": "diagnostics::Deploy",
+      "g n": "pane::ActivateNextItem",
+      "g p": "pane::ActivatePrevItem",
+      "shift-u": "editor::Redo",
+      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-j": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-k": ["workspace::ActivatePaneInDirection", "Down"]
     }
   },
   {
@@ -42,9 +55,24 @@
   {
     "context": "ProjectPanel && not_editing",
     "bindings": {
+      "a": "project_panel::NewFile",
+      "A": "project_panel::NewDirectory",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "x": "project_panel::Cut",
+      "c": "project_panel::Copy",
+      "p": "project_panel::Paste",
       "space e": "workspace::ToggleLeftDock",
-      "q": "workspace::ToggleLeftDock",
-      "enter": ["project_panel::OpenPermanent", "workspace::ToggleLeftDock"]
+      "q": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {
+      "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-w j": ["workspace::ActivatePaneInDirection", "Down"]
     }
   }
 ]
