@@ -2,6 +2,7 @@
   "features": {
     "inline_completion_provider": "none"
   },
+  "project_panel": { "dock": "right" },
   "theme": {
     "mode": "dark",
     "dark": "Gruvbox Dark",
@@ -12,31 +13,41 @@
     // "calt": false,
     "liga": false
   },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
   "vim_mode": true,
   "relative_line_numbers": true,
   "confirm_quit": true,
-  "buffer_font_size": 12,
+  "buffer_font_size": 13,
   "autosave": "on_focus_change",
   "cursor_blink": false,
   "inlay_hints": {
     "enabled": true
   },
+  "use_autoclose": false,
+  "use_auto_surround": false,
   "git": {
     "inline_blame": {
       "enabled": false
     }
   },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
   "assistant": {
-    "version": "1",
-    "enabled": false,
-    "provider": {
-      "name": "ollama",
-      "low_speed_timeout_in_seconds": 30,
-      "default_model": {
-        "name": "deepseek-coder-v2:latest",
-        "keep_alive": "10m",
-        "max_tokens": 163840
-      }
-    }
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "version": "2",
+    "enabled": true
   }
 }
