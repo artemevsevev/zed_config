@@ -1,5 +1,4 @@
-.tmp*
-conversations
-themes
-embeddings
-prompts
+*
+!settings.json
+!keymap.json
+!tasks.json
