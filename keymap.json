@@ -12,6 +12,7 @@
       "space r": "editor::Rename",
       "space d": "diagnostics::Deploy",
       "space g": "pane::DeploySearch",
+      "space s": "editor::ShowSignatureHelp",
       "g h": "vim::FirstNonWhitespace",
       "g l": "vim::EndOfLine",
       "g r": "editor::FindAllReferences",
@@ -62,8 +63,12 @@
       "x": "project_panel::Cut",
       "c": "project_panel::Copy",
       "p": "project_panel::Paste",
-      "space e": "workspace::ToggleLeftDock",
-      "q": "workspace::ToggleLeftDock"
+      "space e": "workspace::ToggleRightDock",
+      "q": "workspace::ToggleRightDock",
+      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-j": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-k": ["workspace::ActivatePaneInDirection", "Down"]
     }
   },
   {
