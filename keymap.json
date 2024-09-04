@@ -40,8 +40,8 @@
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
-      "j j": "vim::NormalBefore",
-      "j k": "vim::NormalBefore"
+      // "j j": "vim::NormalBefore",
+      // "j k": "vim::NormalBefore"
     }
   },
   {
@@ -63,8 +63,8 @@
       "x": "project_panel::Cut",
       "c": "project_panel::Copy",
       "p": "project_panel::Paste",
-      "space e": "workspace::ToggleRightDock",
-      "q": "workspace::ToggleRightDock",
+      "space e": "workspace::ToggleLeftDock",
+      "q": "workspace::ToggleLeftDock",
       "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
       "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
       "ctrl-j": ["workspace::ActivatePaneInDirection", "Up"],
