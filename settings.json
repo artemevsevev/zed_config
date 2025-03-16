@@ -1,6 +1,6 @@
 {
   "theme": "Gruvbox Dark",
-  "buffer_font_family": "MonoLisa",
+  "buffer_font_family": "MonoLisa Variable",
   "features": {
     "edit_prediction_provider": "zed"
   },
