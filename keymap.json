@@ -1,34 +1,62 @@
 [
   {
+    "context": "EmptyPane || SharedScreen",
+    "bindings": {
+      "space space": "file_finder::Toggle",
+      "space f p": "projects::OpenRecent",
+      "space e": "project_panel::ToggleFocus"
+    }
+  },
+  {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
     "bindings": {
+      "space f p": "projects::OpenRecent",
       "space w": "workspace::Save",
-      "space f": "file_finder::Toggle",
       "space e": "pane::RevealInProjectPanel",
       "space b": "tab_switcher::Toggle",
       "shift-k": "editor::Hover",
-      "space a": "editor::ToggleCodeActions",
       "space x": "pane::CloseActiveItem",
       "space r": "editor::Rename",
       "space d": "diagnostics::Deploy",
-      "space g": "pane::DeploySearch",
-      "space s": "editor::ShowSignatureHelp",
+      "space s w": "pane::DeploySearch",
       "g h": "vim::FirstNonWhitespace",
       "g l": "vim::EndOfLine",
-      "g r": "editor::FindAllReferences",
-      "g D": "diagnostics::Deploy",
       "g n": "pane::ActivateNextItem",
       "g p": "pane::ActivatePreviousItem",
       "shift-u": "editor::Redo",
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-j": "workspace::ActivatePaneDown",
-      "ctrl-k": "workspace::ActivatePaneUp"
+      "ctrl-k": "workspace::ActivatePaneUp",
+      // AI
+      "space a c": "assistant::ToggleFocus",
+      // Git
+      "space g h d": "editor::ToggleSelectedDiffHunks",
+      "space g h r": "git::Restore",
+      "space g s": "git_panel::ToggleFocus"
     }
   },
   {
     "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
-    "bindings": {}
+    "bindings": {
+      "g d": "editor::GoToDefinition",
+      "g D": "editor::GoToDefinitionSplit",
+      "g i": "editor::GoToImplementation",
+      "g I": "editor::GoToImplementationSplit",
+      "g t": "editor::GoToTypeDefinition",
+      "g T": "editor::GoToTypeDefinitionSplit",
+      "g r": "editor::FindAllReferences",
+      "] d": "editor::GoToDiagnostic",
+      "[ d": "editor::GoToPreviousDiagnostic",
+      "] e": "editor::GoToDiagnostic",
+      "[ e": "editor::GoToPreviousDiagnostic",
+      "space space": "file_finder::Toggle",
+      "space /": "pane::DeploySearch",
+      "space c a": "editor::ToggleCodeActions",
+      // +Git
+      "] h": "editor::GoToHunk",
+      "[ h": "editor::GoToPreviousHunk"
+    }
   },
   {
     "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
@@ -42,6 +70,14 @@
     "bindings": {
       // "j j": "vim::NormalBefore",
       // "j k": "vim::NormalBefore"
+    }
+  },
+  // Code Action
+  {
+    "context": "Editor && vim_operator == c",
+    "bindings": {
+      "c": "vim::CurrentLine",
+      "a": "editor::ToggleCodeActions"
     }
   },
   {
