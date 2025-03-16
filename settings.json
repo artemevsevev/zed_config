@@ -15,7 +15,8 @@
     "version": "2"
   },
   "tabs": {
-    "git_status": true
+    "git_status": true,
+    "show_diagnostics": "errors"
   },
   "vim_mode": true,
   "vim": {
