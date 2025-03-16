@@ -1,36 +1,33 @@
 {
-  "assistant": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
-    },
-    "version": "2"
-  },
+  "theme": "Gruvbox Dark",
+  "buffer_font_family": "MonoLisa",
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "theme": {
-    "mode": "dark",
-    "dark": "Gruvbox Dark",
-    "light": "Rosé Pine Dawn"
+  "edit_predictions": {
+    "mode": "subtle"
   },
-  "buffer_font_family": "MonoLisa",
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
   "tabs": {
-    "file_icons": true,
     "git_status": true
   },
   "vim_mode": true,
   "vim": {
     "toggle_relative_line_numbers": true
   },
-  "relative_line_numbers": true,
   "confirm_quit": true,
   "buffer_font_size": 13,
   "autosave": "on_focus_change",
   "cursor_blink": false,
-  "inlay_hints": {
-    "enabled": true
-  },
+  // "inlay_hints": {
+  //   "enabled": true
+  // },
   "git": {
     "inline_blame": {
       "enabled": false
@@ -38,8 +35,5 @@
   },
   "collaboration_panel": {
     "button": false
-  },
-  "tab_bar": {
-    "show_nav_history_buttons": false
   }
 }

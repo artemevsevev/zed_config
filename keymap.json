@@ -18,7 +18,7 @@
       "g r": "editor::FindAllReferences",
       "g D": "diagnostics::Deploy",
       "g n": "pane::ActivateNextItem",
-      "g p": "pane::ActivatePrevItem",
+      "g p": "pane::ActivatePreviousItem",
       "shift-u": "editor::Redo",
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
@@ -47,7 +47,7 @@
   {
     "context": "TabSwitcher",
     "bindings": {
-      "k": "menu::SelectPrev",
+      "k": "menu::SelectPrevious",
       "j": "menu::SelectNext",
       "l": "menu::Confirm",
       "x": "tab_switcher::CloseSelectedItem"
