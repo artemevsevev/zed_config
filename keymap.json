@@ -55,7 +55,9 @@
       "space c a": "editor::ToggleCodeActions",
       // +Git
       "] h": "editor::GoToHunk",
-      "[ h": "editor::GoToPreviousHunk"
+      "[ h": "editor::GoToPreviousHunk",
+      "shift-h": "pane::ActivatePreviousItem",
+      "shift-l": "pane::ActivateNextItem"
     }
   },
   {
