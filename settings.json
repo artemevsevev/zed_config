@@ -1,5 +1,9 @@
 {
-  "theme": "Gruvbox Dark",
+  "theme": {
+    "mode": "system",
+    "light": "macOS Classic Light",
+    "dark": "macOS Classic Dark"
+  },
   "buffer_font_family": "MonoLisa Variable",
   "features": {
     "edit_prediction_provider": "zed"
