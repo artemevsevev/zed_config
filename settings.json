@@ -1,15 +1,18 @@
 {
   "theme": {
     "mode": "system",
-    "light": "macOS Classic Light",
-    "dark": "macOS Classic Dark"
+    "light": "Fleet Light",
+    "dark": "JetBrains New Dark"
   },
   "buffer_font_family": "MonoLisa Variable",
+  "buffer_font_size": 13,
+  "ui_font_family": "PT Sans",
   "features": {
     "edit_prediction_provider": "zed"
   },
   "edit_predictions": {
-    "mode": "subtle"
+    "disabled_globs": [],
+    "mode": "eager"
   },
   "assistant": {
     "default_model": {
@@ -28,7 +31,6 @@
     "enable_vim_sneak": true
   },
   "confirm_quit": true,
-  "buffer_font_size": 13,
   "autosave": "on_focus_change",
   "cursor_blink": false,
   "inlay_hints": {
