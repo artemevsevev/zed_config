@@ -388,14 +388,14 @@
       "style": {
         "border": "#ebecf0ff",
         "border.variant": "#ebecf0ff",
-        "border.focused": "#ff0000", //
+        "border.focused": "#ff000000",
         "border.selected": "#00ff00", //
         "border.transparent": "#00000000", //
-        "border.disabled": "#0000ff", //
+        "border.disabled": "#ff0000", //
         "elevated_surface.background": "#f7f8faff",
         "surface.background": "#c9c9c9ff",
         "background": "#f7f8faff",
-        "element.background": "#e3e3e5ff", //
+        "element.background": "#e3e3e5ff",
         "element.hover": "#00000000", //
         "element.active": "#ff0000", //
         "element.selected": "#d5e1ffff",
@@ -584,8 +584,8 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#0033B3ff",
-            "font_style": null,
+            "color": "#871094ff",
+            "font_style": "italic",
             "font_weight": null
           },
           "constructor": {
@@ -615,6 +615,16 @@
           },
           "function": {
             "color": "#000000ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.definition": {
+            "color": "#00627Aff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function.special": {
+            "color": "#DD6718ff",
             "font_style": null,
             "font_weight": null
           },
@@ -704,7 +714,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#7c7e86ff", //
+            "color": "#0037A6ff",
             "font_style": null,
             "font_weight": null
           },
@@ -743,6 +753,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#0033B3ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#000000ff",
             "font_style": null,
@@ -755,6 +770,11 @@
           },
           "variant": {
             "color": "#5b79e3ff", //
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#20999Dff",
             "font_style": null,
             "font_weight": null
           }
