@@ -432,7 +432,7 @@
         "text.disabled": "#808080ff",
         "text.accent": "#3573f0ff",
         "icon": "#ff0000", //
-        "icon.muted": "#ff0000", //
+        "icon.muted": "#ffff00", //
         "icon.disabled": "#808080ff",
         "icon.placeholder": "#00ffff", //
         "icon.accent": "#00ffff", //
@@ -494,7 +494,7 @@
         "terminal.ansi.white": "#929292ff",
         "terminal.ansi.bright_white": "#C9C9C9ff",
         "terminal.ansi.dim_white": "#97979aff", //
-        "link_text.hover": "#ff0000", //
+        "link_text.hover": "#ff00ff", //
         "version_control.added": "#7fc784ff",
         "version_control.modified": "#87aef7ff",
         "version_control.deleted": "#76848aff",
@@ -519,7 +519,7 @@
         "ignored": "#C3C3C3ff", // different
         "ignored.background": "#dcdcddff", //
         "ignored.border": "#c9c9caff", //
-        "info": "#ff0000", //
+        "info": "#808080ff",
         "info.background": "#00ffff", //
         "info.border": "#cbcdf6ff", //
         "modified": "#0133b3ff",
