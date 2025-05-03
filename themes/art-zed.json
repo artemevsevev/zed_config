@@ -56,7 +56,7 @@
         "editor.foreground": "#BCBEC4ff",
         "editor.background": "#1E1F22ff",
         "editor.gutter.background": "#1E1F22ff",
-        "editor.subheader.background": "#2f343eff", //
+        "editor.subheader.background": "#2b2d30ff",
         "editor.active_line.background": "#26282dff",
         "editor.highlighted_line.background": "#2f343eff", //
         "editor.line_number": "#4B5059",
@@ -360,12 +360,12 @@
             "font_weight": null
           },
           "text.literal": {
-            "color": "#a1c181ff", //
+            "color": "#6AAB73ff",
             "font_style": null,
             "font_weight": null
           },
           "title": {
-            "color": "#d07277ff", //
+            "color": "#C77DBBff",
             "font_style": null,
             "font_weight": 400
           },
@@ -455,7 +455,7 @@
         "editor.foreground": "#080808ff",
         "editor.background": "#ffffffff",
         "editor.gutter.background": "#ffffffff",
-        "editor.subheader.background": "#ebebecff", //
+        "editor.subheader.background": "#f7f8faff",
         "editor.active_line.background": "#F5F8FEff",
         "editor.highlighted_line.background": "#00ff00", //
         "editor.line_number": "#AEB3C2ff",
@@ -508,19 +508,19 @@
         "deleted.background": "#fbdfd9ff", //
         "deleted.border": "#f6c6bdff", //
         "error": "#FF0000",
-        "error.background": "#FFCCCCff",
+        "error.background": "#FFE8E8",
         "error.border": "#ff00ff", //
         "hidden": "#7e8086ff", //
         "hidden.background": "#dcdcddff", //
         "hidden.border": "#d3d3d4ff", //
         "hint": "#7A7A7Aff",
-        "hint.background": "#BCDAF7ff",
+        "hint.background": "#C9CCD6",
         "hint.border": "#ff000000", //
         "ignored": "#C3C3C3ff", // different
         "ignored.background": "#dcdcddff", //
         "ignored.border": "#c9c9caff", //
-        "info": "#5c78e2ff", //
-        "info.background": "#e2e2faff", //
+        "info": "#389FD6", //
+        "info.background": "#00ffff", //
         "info.border": "#cbcdf6ff", //
         "modified": "#0133b3ff",
         "modified.background": "#faf2e6ff", //
@@ -537,8 +537,8 @@
         "unreachable": "#58585aff", //
         "unreachable.background": "#dcdcddff", //
         "unreachable.border": "#c9c9caff", //
-        "warning": "#F49810ff",
-        "warning.background": "#FCF4D4ff",
+        "warning": "#F49810",
+        "warning.background": "#FFF8DC",
         "warning.border": "#f4e7d100",
         "players": [
           {
@@ -614,7 +614,7 @@
             "font_weight": null
           },
           "embedded": {
-            "color": "#242529ff", //
+            "color": "#EDFCEDff",
             "font_style": null,
             "font_weight": null
           },
@@ -739,7 +739,7 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#ad6e26ff", //
+            "color": "#EDFCEDff",
             "font_style": null,
             "font_weight": null
           },
