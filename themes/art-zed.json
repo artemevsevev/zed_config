@@ -519,9 +519,9 @@
         "ignored": "#C3C3C3ff", // different
         "ignored.background": "#dcdcddff", //
         "ignored.border": "#c9c9caff", //
-        "info": "#808080ff",
+        "info": "#389FD6",
         "info.background": "#00ffff", //
-        "info.border": "#cbcdf6ff", //
+        "info.border": "#ffff00", //
         "modified": "#0133b3ff",
         "modified.background": "#faf2e6ff", //
         "modified.border": "#f4e7d1ff", //
