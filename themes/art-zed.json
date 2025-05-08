@@ -498,13 +498,13 @@
         "version_control.added": "#7fc784ff",
         "version_control.modified": "#87aef7ff",
         "version_control.deleted": "#76848aff",
-        "conflict": "#a48819ff", //
+        "conflict": "#F49810",
         "conflict.background": "#faf2e6ff", //
         "conflict.border": "#ff00ff", //
         "created": "#b23247ff", //
         "created.background": "#dfeadbff", //
         "created.border": "#c8dcc1ff", //
-        "deleted": "#d36151ff", //
+        "deleted": "#ff0000",
         "deleted.background": "#fbdfd9ff", //
         "deleted.border": "#f6c6bdff", //
         "error": "#FF0000",

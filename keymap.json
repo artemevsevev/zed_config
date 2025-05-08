@@ -29,7 +29,7 @@
       "ctrl-j": "workspace::ActivatePaneDown",
       "ctrl-k": "workspace::ActivatePaneUp",
       // AI
-      "space a c": "assistant::ToggleFocus",
+      "space a c": "agent::ToggleFocus",
       // Git
       "space g h d": "editor::ToggleSelectedDiffHunks",
       "space g h r": "git::Restore",
