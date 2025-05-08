@@ -520,7 +520,7 @@
         "ignored.background": "#dcdcddff", //
         "ignored.border": "#ff00ff", //
         "info": "#389FD6",
-        "info.background": "#ff00ff", // !
+        "info.background": "#fff5db", // !
         "info.border": "#ffff00", //
         "modified": "#0133b3ff",
         "modified.background": "#faf2e6ff", //
