@@ -520,7 +520,7 @@
         "ignored.background": "#dcdcddff", //
         "ignored.border": "#ff00ff", //
         "info": "#389FD6",
-        "info.background": "#fff5db", // !
+        "info.background": "#fff5db",
         "info.border": "#ffff00", //
         "modified": "#0133b3ff",
         "modified.background": "#faf2e6ff", //
@@ -532,7 +532,7 @@
         "renamed.background": "#e2e2faff", //
         "renamed.border": "#cbcdf6ff", //
         "success": "#55a76a",
-        "success.background": "#ffff00", //
+        "success.background": "#E9F5E6",
         "success.border": "#ffff00", //
         "unreachable": "#ffff00", //
         "unreachable.background": "#dcdcddff", //
