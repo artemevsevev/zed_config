@@ -445,8 +445,8 @@
         "tab.active_background": "#ffffffff",
         "search.match_background": "#FCD47Eff",
         "panel.background": "#f7f8faff",
-        "panel.focused_border": null, //
-        "pane.focused_border": null, //
+        "panel.focused_border": "#ffff00", //
+        "pane.focused_border": "#ff00ff", //
         "scrollbar.thumb.background": "#383a414c",
         "scrollbar.thumb.hover_background": "#dfdfe0ff",
         "scrollbar.thumb.border": "#dfdfe000",
@@ -500,7 +500,7 @@
         "version_control.deleted": "#76848aff",
         "conflict": "#a48819ff", //
         "conflict.background": "#faf2e6ff", //
-        "conflict.border": "#f4e7d1ff", //
+        "conflict.border": "#ff00ff", //
         "created": "#b23247ff", //
         "created.background": "#dfeadbff", //
         "created.border": "#c8dcc1ff", //
@@ -509,18 +509,18 @@
         "deleted.border": "#f6c6bdff", //
         "error": "#FF0000",
         "error.background": "#FFE8E8",
-        "error.border": "#ff00ff", //
+        "error.border": "#CF5B56",
         "hidden": "#808080ff",
         "hidden.background": "#dcdcddff", //
-        "hidden.border": "#d3d3d4ff", //
+        "hidden.border": "#ff00ff", //
         "hint": "#7A7A7Aff",
         "hint.background": "#C9CCD6",
         "hint.border": "#ff000000", //
         "ignored": "#C3C3C3ff", // different
         "ignored.background": "#dcdcddff", //
-        "ignored.border": "#c9c9caff", //
+        "ignored.border": "#ff00ff", //
         "info": "#389FD6",
-        "info.background": "#00ffff", //
+        "info.background": "#ff00ff", // !
         "info.border": "#ffff00", //
         "modified": "#0133b3ff",
         "modified.background": "#faf2e6ff", //
