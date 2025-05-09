@@ -110,7 +110,7 @@
         "deleted.border": "#4c2b2cff", //
         "error": "#FA6675ff",
         "error.background": "#402929ff",
-        "error.border": "#00ff00", //
+        "error.border": "#FA6675",
         "hidden": "#808080ff", //
         "hidden.background": "#696b771a", //
         "hidden.border": "#414754ff", //
