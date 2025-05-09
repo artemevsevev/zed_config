@@ -539,7 +539,7 @@
         "unreachable.border": "#c9c9caff", //
         "warning": "#F49810",
         "warning.background": "#FFF8DC",
-        "warning.border": "#f4e7d100",
+        "warning.border": "#F49810",
         "players": [
           {
             "cursor": "#000000ff",
