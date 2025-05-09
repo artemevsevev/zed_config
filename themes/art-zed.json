@@ -132,7 +132,7 @@
         "renamed": "#74ade8ff", //
         "renamed.background": "#74ade81a", //
         "renamed.border": "#293b5bff", //
-        "success": "#ffff00", //
+        "success": "#57965d",
         "success.background": "#57965d",
         "success.border": "#38482fff", //
         "unreachable": "#a9afbcff", //
