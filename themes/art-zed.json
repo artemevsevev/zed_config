@@ -16,11 +16,11 @@
         "elevated_surface.background": "#2b2d30ff",
         "surface.background": "#2b2d30ff",
         "background": "#2b2d30ff",
-        "element.background": "#ff0000", //
+        "element.background": "#2b2d30",
         "element.hover": "#3c3e41ff",
         "element.active": "#ff0000ff",
         "element.selected": "#2e436eff",
-        "element.disabled": "#00ffff", //
+        "element.disabled": "#2b2d30",
         "drop_target.background": "#83899480", //
         "ghost_element.background": "#00000000", //
         "ghost_element.hover": "#3c3e41ff",
