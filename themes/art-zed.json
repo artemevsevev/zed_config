@@ -140,7 +140,7 @@
         "unreachable.border": "#464b57ff", //
         "warning": "#F2C55Cff",
         "warning.background": "#665014ff",
-        "warning.border": "#00ff00", //
+        "warning.border": "#F2C55C",
         "players": [
           {
             "cursor": "#CED0D6FF",
