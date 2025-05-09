@@ -99,13 +99,13 @@
         "version_control.added": "#539258ff",
         "version_control.modified": "#375faeff",
         "version_control.deleted": "#868a91ff",
-        "conflict": "#dec184ff", //
+        "conflict": "#E0BB65",
         "conflict.background": "#dec1841a", //
         "conflict.border": "#5d4c2fff", //
         "created": "#e98f89ff",
         "created.background": "#a1c1811a", //
         "created.border": "#38482fff", //
-        "deleted": "#d07277ff", //
+        "deleted": "#F75464",
         "deleted.background": "#d072771a", //
         "deleted.border": "#4c2b2cff", //
         "error": "#FA6675ff",
