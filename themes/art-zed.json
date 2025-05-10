@@ -44,7 +44,7 @@
         "tab_bar.background": "#1E1F22ff",
         "tab.inactive_background": "#1E1F22ff",
         "tab.active_background": "#1E1F22ff",
-        "search.match_background": "#2D543Fff",
+        "search.match_background": "#114957",
         "panel.background": "#2b2d30ff",
         "panel.focused_border": null, //
         "pane.focused_border": null, //
@@ -58,7 +58,7 @@
         "editor.gutter.background": "#1E1F22ff",
         "editor.subheader.background": "#2b2d30ff",
         "editor.active_line.background": "#26282dff",
-        "editor.highlighted_line.background": "#2f343eff", //
+        "editor.highlighted_line.background": "#2D543F",
         "editor.line_number": "#4B5059",
         "editor.active_line_number": "#A1A3AB",
         "editor.hover_line_number": "#ff0000", //
@@ -457,7 +457,7 @@
         "editor.gutter.background": "#ffffffff",
         "editor.subheader.background": "#f7f8faff",
         "editor.active_line.background": "#F5F8FEff",
-        "editor.highlighted_line.background": "#00ff00", //
+        "editor.highlighted_line.background": "#CCCCFF",
         "editor.line_number": "#AEB3C2ff",
         "editor.active_line_number": "#767A8Aff",
         "editor.hover_line_number": "#00ff00", //
