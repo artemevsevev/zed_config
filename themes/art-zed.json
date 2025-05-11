@@ -111,7 +111,7 @@
         "error": "#FA6675ff",
         "error.background": "#402929ff",
         "error.border": "#FA6675",
-        "hidden": "#ff00ff",
+        "hidden": "#6F737A",
         "hidden.background": "#ff00ff",
         "hidden.border": "#ff00ff",
         "hint": "#727782ff",
