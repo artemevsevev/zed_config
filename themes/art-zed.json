@@ -220,12 +220,12 @@
             "font_weight": null
           },
           "emphasis": {
-            "color": "#ff00ff",
-            "font_style": null,
+            "color": "#BCBEC4",
+            "font_style": "italic",
             "font_weight": null
           },
           "emphasis.strong": {
-            "color": "#ff00ff",
+            "color": "#BCBEC4",
             "font_style": null,
             "font_weight": 700
           },
@@ -320,7 +320,7 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#ff00ff",
+            "color": "#BCBEC4",
             "font_style": null,
             "font_weight": null
           },
@@ -345,7 +345,7 @@
             "font_weight": null
           },
           "string.special": {
-            "color": "#ff00ff",
+            "color": "#56A8F5",
             "font_style": null,
             "font_weight": null
           },
@@ -355,7 +355,7 @@
             "font_weight": null
           },
           "tag": {
-            "color": "#ff00ff",
+            "color": "#D5B778",
             "font_style": null,
             "font_weight": null
           },
@@ -619,12 +619,12 @@
             "font_weight": null
           },
           "emphasis": {
-            "color": "#ff00ff",
-            "font_style": null,
+            "color": "#080808",
+            "font_style": "italic",
             "font_weight": null
           },
           "emphasis.strong": {
-            "color": "#ff00ff",
+            "color": "#080808",
             "font_style": null,
             "font_weight": 700
           },
@@ -719,7 +719,7 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#ff00ff",
+            "color": "#080808",
             "font_style": null,
             "font_weight": null
           },
@@ -744,7 +744,7 @@
             "font_weight": null
           },
           "string.special": {
-            "color": "#ff00ff",
+            "color": "#0033B3",
             "font_style": null,
             "font_weight": null
           },
@@ -754,7 +754,7 @@
             "font_weight": null
           },
           "tag": {
-            "color": "#ff00ff",
+            "color": "#0033B3",
             "font_style": null,
             "font_weight": null
           },
