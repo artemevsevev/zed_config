@@ -325,7 +325,7 @@
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#ff00ff",
+            "color": "#B3AE60",
             "font_style": null,
             "font_weight": null
           },
@@ -584,7 +584,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#9E880Dff",
+            "color": "#9E880D",
             "font_style": null,
             "font_weight": null
           },
@@ -724,7 +724,7 @@
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#ff00ff",
+            "color": "#9E880D",
             "font_style": null,
             "font_weight": null
           },
