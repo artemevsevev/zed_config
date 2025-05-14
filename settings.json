@@ -1,8 +1,8 @@
 {
   "theme": {
     "mode": "system",
-    "light": "Art Light",
-    "dark": "Art Dark"
+    "light": "JetBrains Light",
+    "dark": "JetBrains Dark"
   },
   "buffer_font_family": "MonoLisa Variable",
   "buffer_font_size": 13,
