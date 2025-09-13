@@ -16,7 +16,6 @@
     "edit_prediction_provider": "zed"
   },
   "edit_predictions": {
-    "disabled_globs": [],
     "mode": "eager"
   },
   "agent": {
@@ -24,8 +23,7 @@
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4"
-    },
-    "version": "2"
+    }
   },
   "tabs": {
     "git_status": true,
@@ -33,14 +31,14 @@
   },
   "vim_mode": true,
   "vim": {
-    "toggle_relative_line_numbers": true,
-    "enable_vim_sneak": true
+    "toggle_relative_line_numbers": true
   },
   "confirm_quit": true,
   "autosave": "on_focus_change",
   "cursor_blink": false,
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
+    "show_background": true
   },
   "git": {
     "inline_blame": {
@@ -49,5 +47,23 @@
   },
   "collaboration_panel": {
     "button": false
+  },
+  "auto_signature_help": true,
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "project_panel": {
+    "hide_root": true
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "lsp_document_colors": "border",
+  "profiles": {
+    "Mac": {
+      "buffer_font_size": 13
+    }
   }
 }
